@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.container {
+    padding: 1em 5em;
+    /* border: 2px solid red; */
+    /* margin: auto; */
+}
+/**
+* Navigation
+*/
+nav {
+    background: coral;
+    /* height: 4em; */
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border: 2px solid black;
+}
+
+nav img {
+    height: 1em;
+    justify-self: center;
+    border: 2px dotted green;
+    align-self: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: baseline;
+    justify-self: flex-end;
+    border: 2px dotted green;
+    width: 25em;
+    text-transform: uppercase;
+}
+
+nav ul li:last-child {
+    border: 2px solid;
+    padding: 1em;
+    margin-top: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
